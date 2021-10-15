@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+
+.columns-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  width: 50rem;
+  height: 30rem;
+  padding: 4rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.col {
+  flex: 1;
+  padding: 3rem;
+}
+.col1 {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.col2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.col3 {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.col > h1 {
+  color: hsl(0, 0%, 95%);
+}
+
+.col > p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+  margin-bottom: 5rem;
+}
+
+.col > a {
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-decoration: none;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 1rem;
+}
